@@ -2,11 +2,11 @@
 
 local Players = game:GetService("Players")
  
--Settings
+--Settings
 local userID = 539928638
 local cameraAngle = Enum.ThumbnailType.HeadShot
 local size = Enum.ThumbnailSize.Size420x420
-local url, loaded = Players:GetUserThumbnailAsync(userId, CameraAngle, Size)
+local url, loaded = Players:GetUserThumbnailAsync(userID, cameraAngle, size)
  
 -- Set whatever is the scripts child to the image
 
