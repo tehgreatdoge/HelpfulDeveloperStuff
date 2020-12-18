@@ -10,6 +10,8 @@ local url, loaded = Players:GetUserThumbnailAsync(userID, cameraAngle, size)
  
 -- Set whatever is the scripts child to the image
 
-script:FindFirstChild().Image=url
+item = script:FindFirstChild()
+item.Image=url
+item.Parent=script.Parent
 
 ```
